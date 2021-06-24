@@ -1,4 +1,8 @@
 ### Hi there 👋
+### 👧🏻 I'm Dinara and I'm a graphic and web designer
+### 👩🏻‍💻 I am currently studying Frontend and will soon be frontend developer!
+### 👀 My site is still under construction, but soon you will be able to see it on the GitHub.
+### 🖐🏻 See you soon!
 
 <!--
 **dina-03/dina-03** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
