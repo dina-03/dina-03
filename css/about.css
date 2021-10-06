@@ -1,0 +1,196 @@
+.about{
+    width: 100%;
+    _border: 1px solid black;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    _background: url('../img/paper-notepad-notebook.png')no-repeat;
+    _background-size: cover;
+}
+.my-photo{
+    width: 39%;
+    _height: 50px;
+    _border: 1px solid black;
+    _background-color: aliceblue;
+}
+.text-about{
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-align: right;
+    letter-spacing: -3px;
+    padding: 50px;
+}
+.text-about h2{
+    font-size: 40px;
+    position: relative;
+    font-weight: bold;
+    cursor: pointer;
+}
+.superShadow{
+    text-shadow:0 1px 0 hsl(174,5%,80%),
+                0 2px 0 hsl(174,5%,75%),
+                0 3px 0 hsl(174,5%,70%),
+                0 4px 0 hsl(174,5%,66%),
+                0 5px 0 hsl(174,5%,64%),
+                0 6px 0 hsl(174,5%,62%),
+                0 7px 0 hsl(174,5%,61%),
+                0 8px 0 hsl(174,5%,60%),
+                0 0 5px rgba(0,0,0,.05),
+                0 1px 3px rgba(0,0,0,.2),
+                0 3px 5px rgba(0,0,0,.2),
+                0 5px 10px rgba(0,0,0,.2),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.3);
+}
+
+strong{
+    font-size:70px;
+}
+.content-text{
+    width: 60%;
+    text-align: center;
+    _border: 1px solid black;
+}
+.text{
+    width: 60%;
+    _background-color: rgb(247, 248, 250);
+    _border: 5px solid rgba(95, 158, 160, 0.507);
+    _border-radius: 5px 5px 0 0;
+    background: url('../img/notepad.png')no-repeat;
+    background-size: 100%;
+    _height: 750px;
+    font-size: 18px;
+}
+.text-de, .text-ru{
+    width: 80%;
+    padding: 70px 20px 15px 90px;
+    margin: 10px;
+    
+}
+.text-de h4, .text-ru h4{
+    width: 50%;
+    font-size: 20px;
+    color: cadetblue;
+    margin-top: 20px;
+}
+.text-de p, .text-ru p{
+    margin: 20px 0;
+}
+.eng-text{
+    width: 80%;
+    font-size: 20px;
+    padding: 20px;
+    color: cadetblue;
+    margin-top: 105px;
+    margin-left: 90px;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+}
+.my-photo{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    _border: 1px solid black;
+    position: relative;
+}
+/* .my-photo img{
+    _display: block;
+    _text-align: right;
+    _margin: 10px;
+    width: 390px;
+    _padding-left: 50px;
+    _border: 10px solid rgb(250, 250, 250);
+    _background-color: rgba(255, 255, 255, 0.329);
+    _box-shadow: 5px 5px 15px 5px rgba(187, 187, 187, 0.527);
+} */
+.me img{
+    position: absolute;
+    top: -20px;
+    left: 50px;
+    display: block;
+    margin-top: 30px;
+    width: 390px;
+    _border: 1px solid black;
+    z-index: 1;
+}
+.btn{
+    width: 20%;
+    margin-top: 105px;
+    _border: 1px solid black
+}
+
+.btn button{
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgb(210, 211, 211);
+    _background-color: rgba(95, 158, 160, 0.349);
+    border-radius: 50%;
+    margin: 1px 0;
+    cursor: pointer;
+}
+.btn #en-btn{
+    position: absolute;
+    top: 13px;
+    left: 157px;
+    background-color: rgb(217, 217, 217);
+    color: white;
+    z-index: 2;
+}
+.btn #de-btn{
+    position: absolute;
+    top: 107px;
+    left: 60px;
+    background-color: rgb(217, 217, 217);
+    color: white;
+    z-index: 2;
+}
+.btn #ru-btn{
+    position: absolute;
+    top: 246px;
+    left: 60px;
+    background-color: rgb(217, 217, 217);
+    color: rgb(252, 252, 252);
+    z-index: 2;
+}
+.btn #reset-btn{
+    position: absolute;
+    top: 340px;
+    left: 155px;
+    background-color: rgb(217, 217, 217);
+    color: rgb(252, 252, 252);
+    z-index: 2;
+} 
+.btn #ru-btn:hover, .btn #de-btn:hover, .btn #en-btn:hover, .btn #reset-btn:hover{
+    background-color: aliceblue;
+    color: #000 !important;
+}
+
+.transition{
+    animation: 3s show;
+}
+@keyframes show{
+    0%{
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+}
+
+@media screen and (max-width: 1430px){
+    .text-ru, .text-de{
+        font-size: 16px;
+    }
+    .text-ru h4, .text-de h4{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .text-ru, .text-de{
+        font-size: 12px;
+    }
+    .text-ru h4, .text-de h4{
+        font-size: 15px;
+    }
+}
