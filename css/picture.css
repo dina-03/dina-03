@@ -40,15 +40,14 @@ box-sizing: border-box;
     padding: 0 0 0 100px;
     _border: 1px solid black;
 }
-.album h2, .slider h3, .sites h3{
+.album h2, .slider h3, .sites h3, .center-picture h2{
     color: cadetblue;
     font-size: 28px;
     font-weight: 500;
     padding: 10px 0;
+    text-align: center;
 }
-.album h2{
-    padding-left: 7px !important;
-}
+
 .album img:hover, .row-web img:hover{
     animation: pulse 2s; 
 }

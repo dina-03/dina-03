@@ -1,4 +1,8 @@
 /* Animation City */
+.content-home{
+    background: url(./../img/cityBG.png) no-repeat; 
+    background-size: cover;
+}
 
 .city{
     overflow: hidden;
